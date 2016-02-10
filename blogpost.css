@@ -1,0 +1,35 @@
+.bp-post {
+  
+}
+.bp-title {
+  font-size: 24px;
+  border-top: 4px solid #dddddd;
+  margin-top: 20px;
+  padding-top: 5px;
+  font-family: "Montserrat";
+}
+.bp-date {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #555555;
+  font-weight: normal;
+}
+.bp-body {
+  margin-top: 5px;
+}
+.bp-body pre {
+  background: #dddddd;
+  padding: 15px;
+  border-left: 6px solid #999999;
+}
+.bp-body p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bp-body a {
+  color: #2a72e2;
+  font-weight: bold;
+}
+.bp-body a:hover {
+  color: #679df2;
+}
