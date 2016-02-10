@@ -17,9 +17,10 @@ $('#item-2').click(function() {
 });
 
 $('#item-3').click(function() {
-  $('.projects').hide();
-  $('.blog').hide();
-  $('.bacon').show();
+  window.location.href = 'http://www.baconteam.com/';
+  // $('.projects').hide();
+  // $('.blog').hide();
+  // $('.bacon').show();
 });
 
 $(document).ready(init);

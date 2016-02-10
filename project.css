@@ -1,21 +1,12 @@
 .project {
   margin-top: 10px;
-  margin-bottom: 30px;
-}
-.pj-title {
-  font-size: 24px;
-  border-top: 4px solid #dddddd;
-  margin-top: 20px;
-  padding-top: 5px;
+  margin-bottom: 10px;
   font-family: "Montserrat";
+  background: #cccccc;
 }
-.pj-body {
-  margin-top: 10px;
+.project:hover {
+  background: #dedede;
 }
-.pj-body a {
-  color: #2a72e2;
-  font-weight: bold;
-}
-.pj-body a:hover {
-  color: #679df2;
+.pj-inner {
+  padding: 20px;
 }
