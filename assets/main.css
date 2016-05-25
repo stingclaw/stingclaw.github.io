@@ -1,35 +1,75 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300italic,700,700italic');
-*:not(strong) {
-  font-weight: 300;
-  text-align: center;
-}
 body {
   margin: 0px;
-  font-family: "Lato", sans-serif;
-}
-.outer {
-  text-align: center;
-  max-width: 850px;
-  margin: auto;
-  font-size: 18px;
-}
-.header {
-  font-size: 50px;
-  padding: 2vw 30px;
-}
-.inner {
-  padding: 20px;
-  line-height: 1.5;
-  background: #eeeeee;
-  font-size: 18px;
-  margin-bottom: 10px;
+  overflow-x: hidden;
+  font-weight: 300;
+  font-family: "Lato", "Helvetica Neue", sans-serif;
 }
 a {
-  padding: 20px;
-  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
-a:not(.header-a):hover {
-  background: #fafafa;
+#header {
+  margin: 0px auto;
+  padding: 50px;
+  max-width: 800px;
+  background: #ddd;
+}
+#inner {
+  margin: 0px auto;
+  display: inline-flex;
+}
+#image {
+  width: 120px;
+  border-radius: 120px;
+}
+#name {
+  font-size: 40px;
+  display: inline-block;
+  padding: 40px;
+}
+#body a {
+  border-bottom: 1px solid transparent;
+}
+#body a:hover {
+  border-bottom-color: #444;
+}
+#nav {
+  margin: 0px auto;
+  max-width: 800px;
+  background: #ddd;
+  padding: 0px 50px;
+}
+#body {
+  margin: 0px auto;
+  max-width: 800px;
+  padding: 50px;
+  color: #333;
+  line-height: 1.7;
+  background: #f5f5f5;
+}
+#nav a {
+  padding: 20px;
+  display: inline-block;
+}
+#nav a:hover {
+  background: #f5f5f5;
+  color: #BE8046;
+}
+#body h1 {
+  font-size: 28px;
+}
+.project {
+  padding: 10px;
+  border: 1px solid #BE8046;
+  border-radius: 5px;
+  margin: 10px 0px;
+  color: #794311;
+}
+.project:hover {
+  background: #BE8046;
+  color: #fff;
+}
+.project h3 {
+  margin: 0px 0px 10px 0px;
 }

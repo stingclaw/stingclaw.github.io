@@ -4,30 +4,61 @@
     <meta charset="utf-8">
     <title>chipthrasher.com</title>
     <link rel="stylesheet" href="assets/main.css">
+    <script src="//use.fontawesome.com/018d720f56.js"></script>
   </head>
   <body>
-    <div class="outer">
-      <h1 class="header"><a title="Try hovering over the links below" class="header-a" href="/">chipthrasher.com</a></h1>
-      <div class="inner">
-        <div class="menu">
-          <a href="/">Home</a>
-          <a href="//soundcloud.com/stereofield2015" title="Music">StereoField (SoundCloud)</a>
-          <a href="//stereofield2015.bandcamp.com/" title="Music">StereoField (BandCamp)</a>
-          <a href="//ebay.com/sch/igthebold/m.html" title="Pokémon Cards">eBay</a>
-          <a href="/geocode/" title="A simple, open-source text editor for OSX">GeoCode</a>
-          <a href="//amazon.com/Fight-Freedom-Chip-Thrasher/dp/1517161487/" title="First Book">Fight for Freedom</a>
-          <a href="/pipe/" title="A Work in Progress!">The Pipe Empire</a>
-          <a href="//github.com/stingclaw/pokedata/tree/master#pok%C3%A9mon-tcg-image-database" title="TCG Database">Pokémon TCG Images</a>
-          <a href="/css3junk/" title="Heavy on the browser but cool">Playing with CSS3</a>
-          <a href="//baconteam.com" title="Because bacon is better">Team Bacon</a>
-          <a href="/snap.js/" title="jQuery extension">Snap.JS</a>
-          <a href="/aah/" title="May cause seizures :)">Old Webpage</a>
-          <a href="#" onclick="pop()">Do not click this button!</a>
-        </div>
+    <div id="header"><a href="/">
+      <div id="inner">
+      </a><a href="/"><img id="image" src="https://twitter.com/thechipthrasher/profile_image?size=original"></a><a href="/">
+        <span id="name">Chip Thrasher</span>
       </div>
-      <a onclick="window.prompt('Don\'t spam me! \n\nI will track you down.\n\n', 'thechipthrasher&commat;gmail&period;com');">thechipthrasher&commat;gmail&period;com</a>
+    </a></div>
+    <div id="nav">
+      <a href="//twitter.com/thechipthrasher"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="mailto:thechipthrasher&commat;gmail&period;com"><i class="fa fa-envelope fa-2x"></i></a>
+      <a href="//github.com/stingclaw"><i class="fa fa-github fa-2x"></i></a>
+      <a href="//stereofield2015.bandcamp.com"><i class="fa fa-music fa-2x"></i></a>
+    </div>
+    <div id="body">
+      Hello World! I am an aspiring homeschooled teenage developer, musician, and writer. I play Pokémon Red on a <a target="_blank" href="//www.raspberrypi.org">Raspberry Pi 2</a> with <a target="_blank" href="//retropie.org.uk/">RetroPie</a>, in progress of making a text editor (to learn Cocoa programming), and waiting for the third <a target="_blank" href="//www.goodreads.com/book/show/22249695-masterminds">Masterminds</a> book to come out. If you want to contact me, shoot me an email or message me on Twitter. If you want to spam me, don't.
+      <h1>Projects</h1>
+      <div class="project"><a target="_blank" href="//github.com/stingclaw/geocode">
+        <h3>GeoCode</h3>
+        <div>
+          A simple, open-source text editor for OSX (my goal in programming this is to learn Cocoa programming).
+        </div>
+      </a></div>
+      <div class="project"><a target="_blank" href="//github.com/stingclaw/snap.js">
+        <h3>Snap.JS</h3>
+        <div>
+          A jQuery extension made originally for personal use. Makes a lot of functions (especially ones I use on a daily basis) easier to use.
+        </div>
+      </a></div>
+      <div class="project"><a target="_blank" href="//soundcloud.com/stereofield2015">
+        <h3>StereoField</h3>
+        <div>
+          If you want to listen to my music, it's all on SoundCloud. And when your face contorts when you hear it, please don't email me about it.
+        </div>
+      </a></div>
+      <div class="project"><a href="mailto:thechipthrasher&commat;gmail&period;com?subject=Hurry up with the Pipe Empire!&amp;body=I can't wait all day, you know.">
+        <h3>The Pipe Empire</h3>
+        <div>
+          Another book I'm writing. Just guess what it's about.
+        </div>
+      </a></div>
+      <div class="project"><a href="//github.com/stingclaw/pokedata">
+        <h3>Pokémon TCG Image Database</h3>
+        <div>
+          A database of all the Pokémon TCG card images.
+        </div>
+      </a></div>
+
+      <h1>References</h1>
+      <div class="project"><a href="//twitter.com/STEAMJunction">
+        <h3>STEAM Junction</h3>
+        <div>A makerspace near where I live. Check it out!</div>
+      </a></div>
     </div>
     <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script>function pop() {for(var i = 0; i < 10; i++) {window.open('not-to/', '', 'height=700;width=700');}}</script>
   </body>
 </html>
