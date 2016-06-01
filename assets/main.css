@@ -51,11 +51,13 @@ a {
 #nav a {
   padding: 20px;
   display: inline-block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-#nav a:hover {
+/*#nav a:hover {
   background: #f5f5f5;
   color: #BE8046;
-}
+}*/
 #body h1 {
   font-size: 28px;
 }
@@ -66,10 +68,10 @@ a {
   margin: 10px 0px;
   color: #794311;
 }
-.project:hover {
+/*.project:hover {
   background: #BE8046;
   color: #fff;
-}
+}*/
 .project h3 {
   margin: 0px 0px 10px 0px;
 }
