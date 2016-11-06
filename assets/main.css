@@ -63,10 +63,10 @@ a {
 }
 .project {
   padding: 10px;
-  border: 1px solid #BE8046;
+  border: 1px solid #00a6ff;
   border-radius: 5px;
   margin: 10px 0px;
-  color: #794311;
+  color: #333333;
 }
 /*.project:hover {
   background: #BE8046;
