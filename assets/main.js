@@ -1,7 +1,7 @@
 $('#nav a').hover(function() {
   $(this).animate({
     backgroundColor: '#f5f5f5',
-    color: '#00a6ff',
+    color: '#0089b3',
   }, 100);
 }, function() {
   $(this).animate({
