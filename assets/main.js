@@ -17,7 +17,7 @@ $('.project').hover(function() {
 }, function() {
   $(this).animate({
     backgroundColor: '#f5f5f5',
-    color: '#0053b3',
+    color: '#0089b3',
   }, 50);
 });
 function random(array) {
