@@ -1,7 +1,7 @@
 $('#nav a').hover(function() {
   $(this).animate({
     backgroundColor: '#f5f5f5',
-    color: '#BE8046',
+    color: '#00a6ff',
   }, 200);
 }, function() {
   $(this).animate({
@@ -11,13 +11,13 @@ $('#nav a').hover(function() {
 });
 $('.project').hover(function() {
   $(this).animate({
-    backgroundColor: '#BE8046',
+    backgroundColor: '#00a6ff',
     color: 'white',
   }, 200);
 }, function() {
   $(this).animate({
     backgroundColor: '#f5f5f5',
-    color: '#794311',
+    color: 'darker',
   }, 200);
 });
 function random(array) {
